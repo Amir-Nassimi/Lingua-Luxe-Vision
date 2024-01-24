@@ -2,10 +2,12 @@ import os
 import io
 from PIL import Image
 from stability_sdk import client
-import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
 from googletrans import Translator
+from singleton_decorator import singleton
+import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
 
 
+@singleton
 class TextToImage:
     def __init__(self, activation_key, image_size):
         os.environ['STABILITY_HOST'] = 'grpc.stability.ai:443'

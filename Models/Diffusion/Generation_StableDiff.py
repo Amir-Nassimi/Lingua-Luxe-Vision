@@ -2,10 +2,12 @@ import os
 import sys
 import shlex
 import torch
-from diffusers import AutoPipelineForText2Image
 from googletrans import Translator
+from singleton_decorator import singleton
+from diffusers import AutoPipelineForText2Image
 
 
+@singleton
 class TextToImage:
     def __init__(self, model, image_size, to_cuda, guidance_scale=5, seed=31):
         self.translator = Translator(service_urls=['translate.google.com', 'translate.google.co.kr'])

@@ -4,3 +4,4 @@ ushlex
 diffusers
 googletrans
 stability_sdk
+singleton-decorator

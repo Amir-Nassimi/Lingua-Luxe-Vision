@@ -1,7 +1,9 @@
 import keras_cv
 from googletrans import Translator
+from singleton_decorator import singleton
 
 
+@singleton
 class TextToImage:
     def __init__(self, image_size):
         self.translator = Translator(service_urls=['translate.google.com', 'translate.google.co.kr'])
