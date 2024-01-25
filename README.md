@@ -123,11 +123,6 @@ make waves together with Lingua Luxe Vision and our Kernel. 🚀
 For any queries or discussions regarding our kernel, feel free to open an issue in the kernel's repository, and we'll be
 more than happy to engage with you. Together, we're not just changing audio; we're making history!
 
-Certainly! Here's a revised version of the "Technology Stack" section for your README, with a bit more detail to enhance
-understanding and engagement:
-
----
-
 ## Technology Stack
 
 The Lingua Luxe Vision harnesses a powerful ensemble of technologies, each chosen for its ability to contribute to our
