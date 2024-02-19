@@ -84,7 +84,7 @@ Using Lingua Luxe Vision is straightforward. Follow these steps to generate imag
    image will be saved.
 
    ```bash
-   python script_name.py --model [Model Type] --text "Your Persian Text" --output /path/to/output
+   python run.py --model [Model Type] --text "Your Persian Text" --output /path/to/output
    ```
 
     - `--model`: Choose the type of model for image generation. Options are `Detailed`, `Simple`, or `Both`. Default
@@ -95,7 +95,7 @@ Using Lingua Luxe Vision is straightforward. Follow these steps to generate imag
    For example, to generate an image using the detailed model with specific text, your command might look like this:
 
    ```bash
-   python script_name.py --model Detailed --text "متن فارسی شما" --output /path/to/output
+   python run.py --model Detailed --text "متن فارسی شما" --output /path/to/output
    ```
 
 3. **View the Output:** After running the script, the generated image will be saved in the specified output directory.
